@@ -13,60 +13,85 @@
         <header>
             <nav class="navigation">
                 <ul class="nav-menu">
-                    <li><a href="#contacts" class="contacts">Contacts</a></li>
-                    <li><a href="#about" class="contacts">About Me</a></li>
-                    <li><a href="#skills" class="contacts">Skills</a></li>
-                    <li><a href="#experience" class="contacts">Experience</a></li>
-                    <li><a href="#education" class="contacts">Education and Courses</a></li>
-                    <li><a href="#languages" class="contacts">Languages</a></li>
+                    <li class="nav-item"><a href="#contacts">Contacts</a></li>
+                    <li class="nav-item"><a href="#about">About Me</a></li>
+                    <li class="nav-item"><a href="#skills">Skills</a></li>
+                    <li class="nav-item"><a href="#experience">Experience</a></li>
+                    <li class="nav-item"><a href="#education">Education and Courses</a></li>
+                    <li class="nav-item"><a href="#languages">Languages</a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <section class="main-info">
-                <img src="img/ava.png" alt="avatar">
-                <h1>Olga Ivanova</h1>
+                <div class="avatar">
+                    <img src="img/ava.png" alt="avatar">
+                </div>
+                <div class="name-info">
+                    <span>My name is</span>
+                    <h1>Olga Ivanova</h1>
+                    <span>I'm a front-end developer</span>
+                </div>
             </section>
             <section id="contacts">
                 <h2>Contacts</h2>
-                **Location:** Minsk, Belarus
-                * **Email:** olgaivj18@gmail.com
-                * **GitHub:** [Olga](https://github.com/OlgaI8)
+                <ul class="info">
+                    <li>Email: olgaivj18@gmail.com</li>
+                    <li>GitHub: <a href="https://github.com/OlgaI8">OlgaI8</a></li>
+                    <li>Location: Minsk, Belarus</li>
+                </ul>
             </section>
             <section id="about">
                 <h2>About Me</h2>
-                Hi! I appreciate your interest. I will try to tell you briefly about myself. One day I accidentally
-                stumbled upon a video that talked about HTML and CSS. And I wanted to try. That's the reason I'm here.
-                In search of adventures!
+                <p>Hi! I appreciate your interest. I will try to tell you briefly about myself. One day I accidentally
+                    stumbled upon a video that talked about HTML and CSS. And I wanted to try. That's the reason I
+                    started
+                    learning programming.</p>
             </section>
             <section id="skills">
                 <h2>Skills</h2>
-                * HTML&CSS
-                * JS
-                * Photoshop, Illustrator, Figma
-                * Git, GitHub
+                <ul>
+                    <li>HTML&CSS</li>
+                    <li>JS</li>
+                    <li>Photoshop, Illustrator, Figma</li>
+                    <li>Git, GitHub</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Code exemple</h2>
+                <pre>
+<code>function multiply(a, b){
+    return a * b;
+}</code>
+                </pre>
             </section>
             <section id="experience">
                 <h2>Experience</h2>
-                in process...
+                <p>My <a href="https://github.com/OlgaI8/rsschool-cv/tree/rsschool-cv-html">CV</a></p>
+                <p>More projects coming soon...</p>
             </section>
             <section id="education">
                 <h2>Education and Courses</h2>
-                **Result School:**
-                + [HTML&CSS](https://result.school/products/html-css)
-                * **HTML Academy:**
-                + [HTML&CSS](https://htmlacademy.ru)
+                <p>I was learning in</p>
+                <ul>
+                    <li>Result School <a href="https://result.school/products/html-css">(HTML&CSS courses)</a></li>
+                    <li>HTML Academy <a href="https://htmlacademy.ru">(HTML&CSS courses)</a></li>
+                </ul>
             </section>
             <section id="languages">
                 <h2>Languages</h2>
-                **Russian:** native speaker
-                * **English:** A2 (don't stop and keep learning)
+                <ul class="info">
+                    <li>Russian: native speaker</li>
+                    <li>English: A2 (don't stop and keep learning)</li>
+                </ul>
             </section>
         </main>
         <footer>
-            <a href="https://github.com/OlgaI8">GitHub</a>
-            <p>2023</p>
-            <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="rs-school-logo" width="100"></a>
+            <div class="footer-info">
+                <a href="https://github.com/OlgaI8">GitHub</a>
+                <p>2023</p>
+                <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="rs-school-logo" width="100"></a>
+            </div>
         </footer>
     </div>
 </body>
