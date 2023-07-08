@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+body {
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    background: #F4F6F7;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
