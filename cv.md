@@ -34,6 +34,8 @@ in process...
     + [HTML&CSS](https://result.school/products/html-css)
 * **HTML Academy:**
     + [HTML&CSS](https://htmlacademy.ru)
+* **RSSchool Stage0:**
+    + [HTML&CSS&JS&Git](https://rs.school/courses/javascript-preschool-ru)
 
 ## Languages
 
